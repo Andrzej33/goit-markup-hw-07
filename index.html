@@ -514,12 +514,17 @@
           <div class="form-field form-checkbox">
             <label class="label-checkbox">
               <input
-                class="checkbox"
+                class="checkbox visually-hidden"
                 type="checkbox"
                 name="confirm"
                 value="confirm"
               />
-              <span class="icon-confirm"></span>
+              <span class="icon-confirm">
+                <svg class="icon-check" width="16" height="15">
+                 <use href="./img/symbol-defs.svg#icon-check-modal">
+                 </use>
+                </svg>
+              </span>
               Погоджуюся з розсилкою та приймаю
             </label>
             <a class="contract-modal" href="#">Умови договору</a>
