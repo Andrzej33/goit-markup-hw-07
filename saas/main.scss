@@ -1,4 +1,16 @@
-@import './utils/variables.scss';
+@import './base/reset';
+@import './base/common';
+@import './utils/vars.scss';
+@import './utils/hidden';
+
+@import './components/container.scss';
+@import './components/title.scss';
+@import './components/btn.scss';
+
 @import './layouts/header';
 @import './layouts/hero';
+@import './layouts/benefits';
+@import './layouts/work';
+@import './layouts/crew';
+
 
