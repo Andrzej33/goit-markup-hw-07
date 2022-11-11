@@ -1,6 +1,4 @@
-.hero-bt,
-.hero-bt-modal,
-.subs-bt {
+.btn{
     min-width: 216px;
     height: 50px;
     font-family: inherit;
@@ -20,9 +18,9 @@
     margin-top: 30px;
     padding: 10px 32px;
     transition: background-color var(--transition-duration) var(--transition-cub);
+       &:hover,
+        &:focus {
+            background-color: var(--bt-bkg--hover-color);
+        }
 }
 
-.hero-bt:hover,
-.hero-bt:focus {
-    background-color: var(--bt-bkg--hover-color);
-}

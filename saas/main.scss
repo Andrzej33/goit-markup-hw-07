@@ -4,17 +4,22 @@
 @import './utils/hidden';
 
 @import './components/container.scss';
+@import './components/header';
 @import './components/logo.scss';
 @import './components/title.scss';
 @import './components/btn.scss';
+@import './components/modal-window';
+@import './components/footer';
 
-@import './layouts/header';
+
 @import './layouts/hero';
 @import './layouts/benefits';
 @import './layouts/work';
 @import './layouts/crew';
 @import './layouts/clients';
-@import './layouts/footer';
+
+
+
 
 
 
