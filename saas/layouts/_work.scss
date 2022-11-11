@@ -1,4 +1,4 @@
-.work.section {
+.work__section {
     padding-top: 0px;
     padding-bottom: 94px;
 }
@@ -6,12 +6,12 @@
 /* .work-item::not(:last-child) {
   margin-right: 30px;
 } */
-.work-list {
+.product {
     display: flex;
     gap: 30px;
 }
 
-.work-item {
+.product__item {
     width: calc((100% - 60px) / 3);
     position: relative;
     display: flex;
@@ -19,7 +19,7 @@
 
 
 
-.work-title {
+.product__title {
     position: absolute;
     width: 100%;
     height: 70px;
