@@ -1,12 +1,12 @@
-.advantage__list {
+.icon__list {
     display: flex;
 }
 
-.advantage__item:not(:last-child) {
+.icon__list__item:not(:last-child) {
     margin-right: 30px;
 }
 
-.advantage__graphics {
+.icon__list__graphics {
     display: flex;
     background-color: var(--primary-bkg-bt-color);
     height: 120px;
@@ -16,12 +16,12 @@
     align-items: center;
 }
 
-.advantage__icon {
+.icon__list__icon {
     width: 70px;
     height: 70px;
 }
 
-.advantage__title {
+.icon__list__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -30,7 +30,7 @@
     color: var(--primary-title-color);
 }
 
-.advantage__text {
+.icon__list__text {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;

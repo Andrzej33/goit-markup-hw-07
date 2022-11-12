@@ -2,11 +2,11 @@
     background: var(--primary-bkg-bt-color);
 }
 
-.crew__list {
+.person__list {
     display: flex;
 }
 
-.crew__item {
+.person__list__item {
     background: var(--primary-bkg-color);
     padding-top: 0px;
     margin-right: 30px;
@@ -23,7 +23,7 @@
 //     margin-right: 0px;
 // }
 
-.crew__card {
+.person__list__card {
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -63,7 +63,7 @@
     fill: currentColor;
 }
 
-.crew__member {
+.person__list__member {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -73,7 +73,7 @@
     margin-bottom: 10px;
 }
 
-.crew__position {
+.person__list__position {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
