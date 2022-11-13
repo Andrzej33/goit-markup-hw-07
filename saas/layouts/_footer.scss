@@ -33,7 +33,7 @@
 
 .footer-mail,
 .footer-tel {
-    transition: color var(--transition-duration) var(--transition-cub);
+    @extend %tnrans-color;
     &:hover,
         &:focus {
             color: var(--accent-color);

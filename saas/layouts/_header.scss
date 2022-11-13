@@ -29,7 +29,7 @@
     padding-top: 32px;
     padding-bottom: 32px;
     display: block;
-    transition: color var(--transition-duration) var(--transition-cub);
+    @extend %tnrans-color;
 }
 
 .site-nav,

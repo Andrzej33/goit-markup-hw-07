@@ -20,9 +20,7 @@
 }
 
 .modal {
-    position: absolute;
-    left: 50%;
-    top: 50%;
+    @extend %trans-center;
     transform: translate(-50%, -50%) scale(1);
     min-width: 528px;
     min-height: 581px;

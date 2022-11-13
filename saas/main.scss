@@ -1,26 +1,27 @@
+@import './utils/vars';
+@import './utils/placeholders';
+@import './utils/hidden';
 @import './base/reset';
 @import './base/common';
-@import './utils/vars.scss';
-@import './utils/placeholders.scss';
-@import './utils/hidden';
 
-@import './components/section.scss';
-@import './components/container.scss';
-@import './components/header';
-@import './components/logo.scss';
-@import './components/title.scss';
-@import './components/btn.scss';
+
+@import './components/section';
+@import './components/container';
+@import './components/logo';
+@import './components/section-title';
+@import './components/btn';
 @import './components/modal-window';
-@import './components/footer';
 
 
+@import './layouts/header';
 @import './layouts/hero';
 @import './layouts/benefits';
 @import './layouts/work';
 @import './layouts/crew';
 @import './layouts/clients';
-@import './layouts/portfolio';
+@import './layouts/footer';
 
+@import './pages/portfolio';
 
 
 
