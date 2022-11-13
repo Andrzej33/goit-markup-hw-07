@@ -18,14 +18,12 @@
     display: inline-block;
     padding-top: 24px;
     padding-bottom: 25px;
-    margin-right: 93px;
+    
 }
 
-.accent__logo {
-    color: #000000;
-}
 
-.siteNav__link,
+
+.site-nav__link,
 .contacts__mail,
 .contacts__tel {
     padding-top: 32px;
@@ -34,7 +32,7 @@
     transition: color var(--transition-duration) var(--transition-cub);
 }
 
-.siteNav,
+.site-nav,
 .contacts {
     display: flex;
     gap: 50px;
@@ -49,7 +47,7 @@
 //     color: var(--accent-color);
 // }
 
-.siteNav__link {
+.site-nav__link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;

@@ -11,19 +11,18 @@ h6 {
 ul {
     margin: 0;
     padding-left: 0;
+    list-style: none;
 }
 
-button {
-    cursor: pointer;
-    border: 1px solid transparent;
-}
+
 
 address {
     font-style: normal;
 }
 
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+
+
+
+.link {
+    text-decoration: none;
 }

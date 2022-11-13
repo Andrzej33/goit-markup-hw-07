@@ -11,6 +11,21 @@ h6 {
 ul {
   margin: 0;
   padding-left: 0;
+  list-style: none;
+}
+
+address {
+  font-style: normal;
+}
+
+.link {
+  text-decoration: none;
+}
+
+body {
+  font-family: var(--main-font-style), sans-serif;
+  color: var(--primary-text-color);
+  margin: 0;
 }
 
 button {
@@ -18,33 +33,10 @@ button {
   border: 1px solid transparent;
 }
 
-address {
-  font-style: normal;
-}
-
 img {
   display: block;
   max-width: 100%;
   height: auto;
-}
-
-body {
-  font-family: "roboto", sans-serif;
-  color: #757575;
-  margin: 0;
-}
-
-ul {
-  list-style: none;
-}
-
-.link {
-  text-decoration: none;
-}
-
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 :root {
@@ -58,6 +50,7 @@ ul {
   --transition-duration: 250ms;
   --transition-cub: cubic-bezier(0.4, 0, 0.2, 1);
   --bt-bkg--hover-color: #188ce8;
+  --main-font-style: "roboto";
 }
 
 .visually-hidden {
@@ -72,6 +65,11 @@ ul {
           clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .container {
@@ -98,14 +96,9 @@ ul {
   display: inline-block;
   padding-top: 24px;
   padding-bottom: 25px;
-  margin-right: 93px;
 }
 
-.accent__logo {
-  color: #000000;
-}
-
-.siteNav__link,
+.site-nav__link,
 .contacts__mail,
 .contacts__tel {
   padding-top: 32px;
@@ -114,7 +107,7 @@ ul {
   transition: color var(--transition-duration) var(--transition-cub);
 }
 
-.siteNav,
+.site-nav,
 .contacts {
   display: flex;
   gap: 50px;
@@ -124,14 +117,14 @@ ul {
   margin-left: auto;
 }
 
-.siteNav__link {
+.site-nav__link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-title-color);
 }
-.siteNav__link:hover, .siteNav__link:focus {
+.site-nav__link:hover, .site-nav__link:focus {
   color: var(--accent-color);
 }
 
@@ -181,6 +174,23 @@ ul {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-color);
+  display: block;
+}
+
+.logo--margin-header {
+  margin-right: 93px;
+}
+
+.logo--margin-footer {
+  margin-bottom: 20px;
+}
+
+.accent--color-dark {
+  color: #000000;
+}
+
+.accent--color-light {
+  color: #ffffff;
 }
 
 .section-title {
@@ -447,14 +457,6 @@ position: absolute;
   margin-bottom: 20px;
   display: block;
 } */
-.accent-footer {
-  color: var(--primary-bkg-color);
-}
-
-.address {
-  margin-top: 20px;
-}
-
 .footer-location,
 .footer-mail,
 .footer-tel {

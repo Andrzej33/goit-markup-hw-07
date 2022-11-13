@@ -1,20 +1,19 @@
 
 
 body {
-    font-family: "roboto", sans-serif;
-    color: #757575;
+    font-family: var(--main-font-style), sans-serif;
+    color: var(--primary-text-color);
     margin: 0;
 }
 
-ul {
-    list-style: none;
+button {
+    cursor: pointer;
+    border: 1px solid transparent;
 }
 
-.link {
-    text-decoration: none;
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
-.section {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
