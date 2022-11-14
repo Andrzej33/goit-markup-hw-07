@@ -473,15 +473,15 @@ position: absolute;
   margin: 0 auto;
 }
 
-.icon__list {
+.card__list {
   display: flex;
 }
 
-.icon__list__item:not(:last-child) {
+.card__list__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.icon__list__graphics {
+.card__list__graphics {
   display: flex;
   background-color: var(--primary-bkg-bt-color);
   height: 120px;
@@ -491,12 +491,12 @@ position: absolute;
   align-items: center;
 }
 
-.icon__list__icon {
+.card__list__icon {
   width: 70px;
   height: 70px;
 }
 
-.icon__list__title {
+.card__list__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -505,7 +505,7 @@ position: absolute;
   color: var(--primary-title-color);
 }
 
-.icon__list__text {
+.card__list__text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
